@@ -11,6 +11,7 @@ const Post = ({post}) => {
 
 export default Post
 // new line
+// newline
 // new line
 
 export async function getStaticPaths(){
