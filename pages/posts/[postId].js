@@ -10,6 +10,8 @@ const Post = ({post}) => {
 }
 
 export default Post
+// new line
+
 
 export async function getStaticPaths(){
     return {
@@ -19,6 +21,9 @@ export async function getStaticPaths(){
             },
             {
                 params: {postId: '2'}
+            },
+            {
+                params: {postId: '3'}
             },
             {
                 params: {postId: '3'}
